@@ -1,0 +1,84 @@
+h1 {
+    display:flex;
+    justify-content:center;
+}
+#newBook {
+    margin:auto;
+    border-radius:20px;
+    font-size:25px;
+    padding:10px;
+}
+#buttonDiv {
+    display:flex;
+    justify-content:center;
+}
+.card {
+    height:300px;
+    width:250px;
+    background-color:lightblue;
+    padding:10px;
+    border-radius:25px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:20px;
+    border:solid darkblue;
+}
+#formDiv {
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    align-items:center;
+    margin-bottom:15px;
+}
+#submit {
+    font-size:17px;
+    padding:10px;
+    border-radius:20px;
+}
+#errorDiv {
+    color:red;
+    font-size:15px;
+    text-align:center;
+    margin-right:10px;
+    height:18px;
+}
+#mainDiv {
+    padding-top:30px;
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+.Title{
+    text-align:center;
+    font-size:25px;
+}
+.Author {
+    text-align:center;
+}   
+.Pages {
+    text-align:center;
+}
+.Read{
+    text-align:center;
+}
+.togleButton {
+    padding:5px;
+    background-color:white;
+    border-radius:10px;
+    color:darkblue;
+    width:130px;
+    margin:auto;
+    margin-top:0px;
+}
+.deleteButton {
+    padding:5px;
+    background-color:white;
+    border-radius:10px;
+    color:darkblue;
+    width:130px;
+    margin:auto;
+    margin-top:0px;
+}
